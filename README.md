@@ -1,5 +1,29 @@
-MIT License
+📡 M5Stack Cardputer Wi-Fi Hotspot
+Transform your M5Stack into a simulated public Wi-Fi hotspot with custom authentication and data logging!
 
+This project demonstrates how to create a public hotspot using the M5Stack Cardputer. It simulates a Wi-Fi network and serves a custom web page hosted on an SD card. User-submitted data is stored locally on the SD card, offering complete control and privacy for testing and educational purposes.
+
+Ideal for educational applications and IoT projects, the system combines efficient hardware with a simple and functional interface.
+
+🚀 Key Features
+Simulated Wi-Fi Hotspot: Create a public network simulating Facebook authentication.
+Custom Web Page: The page displayed to users is loaded directly from the SD card.
+Credential Logging: All user-submitted data is saved in the senhas.txt file.
+Local Control: Use the mapped M5Stack keyboard to navigate the menu and manage connections.
+Real-Time Monitoring: View network status, including the number of connected devices and logged credentials.
+🎛️ Requirements
+Microcontroller: M5Stack Cardputer or equivalent with SD card support.
+SD Card: Required to store the web page, configuration files, and logs.
+Arduino IDE: Development tool to upload the code to the M5Stack.
+Mapped Keyboard: For navigating the menu and managing the interface.
+🛠️ How to Use
+Download this repository.
+Upload the code in the src folder to the M5Stack using the Arduino IDE.
+Copy the files from the sd_content folder to the SD card.
+Insert the SD card into the M5Stack and power it on.
+Connect to the Wi-Fi network created by the device.
+When accessing the simulated web page, any data submitted will be saved locally on the SD card.
+MIT License
 Copyright (c) 2024 Guilherme
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,7 +44,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Ethical Note
+Ethical Note
+This project was developed for educational and demonstration purposes only.
+It must not be used to collect user data without explicit consent or to violate the privacy of others.
+The author is not responsible for any misuse of this software.
 
-This project was developed for educational and demonstration purposes.
- It must not be used to collect user data without explicit consent or violate the privacy of others. The author is not responsible for misuse of this software.
